@@ -34,7 +34,7 @@ FarField-Singing-FPGAs/
 │   │   ├── square_wave_generator.v
 │   │   ├── sakura_g_main_r1.ucf           # FPGA pin constraints
 │   │   │
-│   │   ├── AES/                           # AES-128 encryption (optional)
+│   │   ├── AES/                           # AES-128 enc/dec (optional)
 │   │   │   ├── AES_Encrypt.v
 │   │   │   ├── AES_Decrypt.v
 │   │   │   ├── keyExpansion.v
@@ -349,8 +349,11 @@ Hits: XXX, Misses: X, Success rate: XX.XX%
 ## 🎯 Key Features
 
 ✅ **Complete System Integration**: From FPGA generation to MATLAB analysis
-✅ **Multiple Transmission Modes**: Multi-frequency, sweep, basic/key FSK, AES encryption
+
+✅ **Multiple Transmission Modes**: Multi-frequency, sweep, basic/key FSK, AES decryption
+
 ✅ **Advanced Error Correction**: 5× repetition code with majority voting
+
 ✅ **Flexible Configuration**: Adjustable frequencies, symbol rates, repetition factors
 
 ---
@@ -388,6 +391,7 @@ Hits: XXX, Misses: X, Success rate: XX.XX%
 - **Error Correction**: [Repetition Code Theory](https://en.wikipedia.org/wiki/Repetition_code) | [Majority Voting Decoding](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/)
 - **Signal Processing**: [MATLAB STFT Documentation](https://www.mathworks.com/help/signal/ref/stft.html) | [Spectrogram Analysis](https://www.mathworks.com/help/signal/ref/spectrogram.html) | [Airspy R2](https://airspy.com/airspy-r2/)
 - **Channel Characterization**: [Bit Error Rate (BER) Theory](https://en.wikipedia.org/wiki/Bit_error_rate) | [Burst Error Analysis](https://www.mathworks.com/help/comm/ug/channel-noise-models.html) | [Gilbert-Elliott Channel Model](https://en.wikipedia.org/wiki/Gilbert%E2%80%93Elliott_model)
+- **AES**: [AES](https://he.wikipedia.org/wiki/AES) | [AES-Verilog repository used in this project](https://github.com/michaelehab/AES-Verilog)
 
 ---
 

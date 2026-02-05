@@ -420,17 +420,10 @@ Recommended model: Binary Symmetric Channel (BSC)
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/anonix002/anon_proj_002.git
-cd RF-Signal-Receiver
 ```
 
-### 2. Open MATLAB
-```matlab
-% Navigate to project directory
-cd RF-Signal-Receiver
+### 2. Open `receiver/Receiver_Code.m` in MATLAB
 
-% Run the main script
-Receiver_Code
-```
 
 ### 3. Update Audio File Path
 Edit **line 2** of `Receiver_Code.m`:

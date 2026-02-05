@@ -419,7 +419,7 @@ Recommended model: Binary Symmetric Channel (BSC)
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/RF-Signal-Receiver.git
+git clone https://github.com/anonix002/anon_proj_002.git
 cd RF-Signal-Receiver
 ```
 
